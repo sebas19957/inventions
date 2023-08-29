@@ -1,10 +1,11 @@
 import { Button, Image } from "@nextui-org/react";
 
 import { Layout } from "../components/layouts";
+import NextLink from "next/link";
 
 const Custom404 = () => {
   return (
-    <Layout title="404">
+    <Layout title="Inventions App | 404">
       <div
         style={{
           display: "flex",
@@ -41,19 +42,21 @@ const Custom404 = () => {
               marginTop: "10px",
             }}
           >
-            <Button
-              className="text-tiny"
-              color="primary"
-              radius="full"
-              size="md"
-              style={{
-                fontSize: "15px",
-                fontWeight: "bold",
-                color: "white",
-              }}
-            >
-              Volver al Inicio
-            </Button>
+            <NextLink href="/" passHref>
+              <Button
+                className="text-tiny"
+                color="primary"
+                radius="full"
+                size="md"
+                style={{
+                  fontSize: "15px",
+                  fontWeight: "bold",
+                  color: "white",
+                }}
+              >
+                Volver al Inicio
+              </Button>
+            </NextLink>
           </div>
         </div>
       </div>

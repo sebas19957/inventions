@@ -12,7 +12,7 @@ export const Layout: FC<layoutProps> = ({ children, title }) => {
   return (
     <>
       <Head>
-        <title>{title || "Inventory App"}</title>
+        <title>{title || "Inventions App"}</title>
         <meta name="author" content="Sebastian, Jose, Juan Diego" />
         <meta name="description" content="Pagina principal" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
