@@ -68,7 +68,7 @@ const CreateInventiosPage = () => {
         >
           <CardHeader className=" z-10 top-1 flex-col items-center">
             <h2 style={{ fontSize: "25px", fontWeight: "bold" }}>
-              Create Inventory
+              Create Invention
             </h2>
           </CardHeader>
 

@@ -163,7 +163,7 @@ export default function Home() {
                 backgroundColor: "#ffffff80",
                 cursor: "pointer",
                 width: "100%",
-                height: "100%",
+                height: "200px",
               }}
             >
               <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
