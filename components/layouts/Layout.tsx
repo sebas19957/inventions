@@ -26,7 +26,7 @@ export const Layout: FC<layoutProps> = ({ children, title }) => {
       {/* Navbar */}
       <NavbarUI />
 
-      <main style={{ padding: "20px 20px", minHeight: "calc(100vh - 152px)" }}>
+      <main style={{ padding: "20px 20px", minHeight: "calc(100vh - 128px)" }}>
         {children}
       </main>
 
@@ -40,7 +40,6 @@ export const Layout: FC<layoutProps> = ({ children, title }) => {
         }}
       >
         <div>Universidad de Medellín - Línea de Énfasis II: DevOps</div>
-        Copyright © {new Date().getFullYear()}
       </footer>
     </>
   );
