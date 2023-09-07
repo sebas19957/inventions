@@ -57,7 +57,6 @@ const CreateInventiosPage = () => {
         values.description,
         Number(selectInventor)
       );
-      console.log(response);
       setLoadingInvention(false);
 
       enqueueSnackbar(response?.message, {

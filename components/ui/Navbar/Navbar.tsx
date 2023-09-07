@@ -22,7 +22,11 @@ export const NavbarUI = () => {
       </NavbarContent>
       <NavbarContent justify="end">
         <NavbarItem>
-          <NextLink href="/create-invention" passHref>
+          <NextLink
+            href="/create-invention"
+            passHref
+            style={{ marginRight: "10px" }}
+          >
             <Button
               color="primary"
               radius="full"
@@ -30,7 +34,18 @@ export const NavbarUI = () => {
               className={styles["focus-in-contract_button"]}
               style={{ fontSize: "15px", fontWeight: "bold" }}
             >
-              Create Invention Record
+              Create Invention
+            </Button>
+          </NextLink>
+          <NextLink href="/create-inventor" passHref>
+            <Button
+              color="primary"
+              radius="full"
+              size="md"
+              className={styles["focus-in-contract_button"]}
+              style={{ fontSize: "15px", fontWeight: "bold" }}
+            >
+              Create Inventor
             </Button>
           </NextLink>
         </NavbarItem>
