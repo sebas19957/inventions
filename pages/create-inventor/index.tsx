@@ -215,7 +215,7 @@ const CreateInventorPage = () => {
           </Card>
 
           <Card
-            className={`w-full mb-10 p-4 col-span-12 sm:col-span-6 ${styles["scale-in-center"]}`}
+            className={`w-full mb-10 p-6 col-span-12 sm:col-span-6 ${styles["scale-in-center"]}`}
             style={{ backgroundColor: "#ffffff80" }}
           >
             <div
